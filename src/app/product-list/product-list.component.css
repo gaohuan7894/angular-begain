@@ -1,4 +1,18 @@
 
+div.item-tool-bar{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /*background-color: #EEEEEE;*/
+    /*border-radius: 2px;*/
+    /*padding: 5px 10px;*/
+    justify-content: left;
+
+}
+
+.tool-item{
+    margin-right: 5px;
+}
 
 /*
 Copyright Google LLC. All Rights Reserved.

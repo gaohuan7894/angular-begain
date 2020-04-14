@@ -116,17 +116,21 @@ app-top-bar {
   justify-content: space-between;
   align-items: center;
 }
-
+button.danger {
+  background-color: red;
+}
 app-top-bar h1 {
   color: white;
   margin: 0;
 }
 
 /* Checkout Cart, Shipping Prices */
-
+app-cart{
+  width: 100%;
+}
 .cart-item, .shipping-item {
   width: 100%;
-  min-width: 400px;
+  min-width: 300px;
   max-width: 450px;
   display: flex;
   flex-direction: row;
